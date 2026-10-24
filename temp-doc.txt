@@ -1,0 +1,9 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+ the command cp ../temp-* . stands for “copy all files in the parent directory (../) whose names start with temp- into the current directory (.).”
+
+5.2 We did not use git init because the current directory was a result of the clone and was already a Git repository
+
+5.3 
+To commit the copied files:
+git add .      
+git commit -m "Add copied files"
